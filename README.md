@@ -1,9 +1,21 @@
+# Anapat Hengko
+
 Data Engineer in Bangkok. I design data and GenAI architecture, direct AI coding agents (Claude Code) with review and QA gates, and ship the result to production.
 
 [LinkedIn](https://www.linkedin.com/in/anapat-hengko/) · Bangkok, Thailand
 
 **Now:** Data Engineer at Kiss of Beauty (Thai multi-brand beauty company), Jan 2024–present  
 **Before:** B.Sc. Computer Science, Thammasat University (2020–2024)
+
+## Selected impact
+
+Built and operate these in production (employer code stays private; public write-ups/demos linked where available):
+
+- **MCP text-to-SQL on production Odoo** — 94,956 questions from 10 users across 2 companies in two months; 99.3% tool-call success; 2.3s p95; per-user SSO; 100% audited; zero shared secrets. <!-- add link when mcp-text-to-sql-demo is public -->
+- **NPD Commercial OS** — 10-gate product-development web app, Entra SSO, CI/CD on AWS; 20 users, 4 teams, 109 SKUs; ~8 hours/week saved for the PM team; launch audit coverage from ~0% to 100%.
+- **Marketplace settlement reconciliation** — FastAPI service reconciling Shopee / TikTok / Lazada settlements into Odoo; 949K invoices across 755 payout cycles; 6.5M+ rows ingested across 3 brands after an Airflow migration. <!-- add link when marketplace-settlement-reconciler is public -->
+- **KISS Commercial Intelligence EPM** — gold-layer views, a Flag Engine, and MCP across 3 brands.
+- **Live ads monitoring for TikTok GMV Max LIVE** — ~60 concurrent affiliate lives, with a LINE bot (n8n, PostgreSQL).
 
 ## Featured public work
 
@@ -36,13 +48,7 @@ Data Engineer in Bangkok. I design data and GenAI architecture, direct AI coding
 
 ## GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anapat12062544&theme=github-compact&hide_border=true&area=true" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Anapat12062544&theme=github-dark-blue&hide_border=true" />
-</p>
+![Contributions 2026 (Mon–Fri)](./activity-2026.svg)
 
 ## How I work
 
